@@ -13,4 +13,4 @@ document.addEventListener("keydown", (event) => {
     }
     mario.style.left=posicionX + "px";
 });
-
+//bernat guapo
