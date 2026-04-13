@@ -6,18 +6,18 @@ document.addEventListener("keydown", (event) => {
         case "ArrowLeft":
             posicionX = posicionX - 10;
             mario.style.transform = "scaleX(-1)";
-            mario.style.backgroundImage = "url('../img/mario.png')";
+            mario.style.backgroundImage = "url('./img/mario.png')";
             mario.style.zIndex = "10";
             break;
         case "ArrowRight":
             posicionX = posicionX + 10;
             mario.style.transform = "scaleX(1)";
-            mario.style.backgroundImage = "url('../img/mario.png')";
+            mario.style.backgroundImage = "url('./img/mario.png')";
             mario.style.zIndex = "10";
             break;
         case "ArrowDown":
             // mostrar la imagen agachado, asegurando que quede por encima y con tamaño correcto
-            mario.style.backgroundImage = "url('../img/marioAgachado.png')";
+            mario.style.backgroundImage = "url('./img/marioAgachado.png')";
             mario.style.zIndex = "10";
             mario.style.backgroundSize = "contain";
             mario.style.backgroundPosition = "center bottom";
